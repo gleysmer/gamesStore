@@ -1,0 +1,63 @@
+.wholeBox {
+  background-color: #d837b4;
+  margin-top: 35px;
+}
+
+.extraInfo {
+  padding-right: 40px;
+  padding-bottom: 20px;
+}
+
+.infoExButton {
+  cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 0;
+  text-align: center;
+}
+
+.infoExContent {
+  margin-bottom: 10px;
+}
+
+.helpAndContact {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.giftCards {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aboutUs {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.shippingPartners {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.payment {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column
+}
+
+.ourPromises {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-direction: column;
+}

@@ -1,0 +1,15 @@
+.container {
+    color: white;
+    margin: 10px 0px;
+    width: 100%;
+    padding: 5px 10px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.534),
+        rgba(0, 0, 0, 0.534)
+    ),
+     url('../../media/banner-playing.jpg');
+    
+}

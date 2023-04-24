@@ -1,0 +1,30 @@
+.container {
+    width: 96%;
+    padding: 10px;
+    background-color: aliceblue;
+    min-height: 100vh;
+}
+.banners{
+    height: 420px;
+}
+.title {
+    font-size: 40px;
+    margin: 0;
+    margin-top: 15px;
+    text-align: left;
+}
+
+
+@media (min-width: 1050px) {
+    .container {
+        margin-top: 30px;
+        width: 92%;
+        margin-left: 6%;
+        padding: 25px;
+        background-color: aliceblue;
+    }
+
+    .banners {
+        display: flex;
+    }
+}

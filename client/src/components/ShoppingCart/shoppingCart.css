@@ -1,0 +1,238 @@
+.bigContainer {
+    width: 96%;
+    padding: 10px;
+    background-color: #f0f8ffc9;
+    min-height: 100vh;
+
+    color: #19072c;
+}
+
+.checkoutContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 900px;
+    min-width: 300px;
+    background-color: white;
+    margin: 2rem auto;
+    border-radius: 15px;
+    box-shadow: #000000bf 0px 0px 13px -5px;
+    padding: 1.5rem 0rem 0rem;
+}
+
+.miCarrito {
+    margin: 0rem 1rem 2rem 2rem;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.productShoppingCart_ProductRow {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-bottom: 1px solid #d4d4d4;
+    height: 150px;
+    padding: 10px 0px;
+}
+
+.product_container {
+    display: flex;
+    border: 1px solid black;
+}
+
+.productShoppingCart_Divtitle {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.productShoppingCart_Img {
+    width: 100px;
+    height: 120px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    border: 1px solid black;  
+}
+
+.productShoppingCart_ProductName {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 300px;
+    cursor: pointer;
+}
+
+.productName {
+    margin: 2px;
+
+}
+
+.productShoppingCart_DivPrecios {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.productShoppingCart_ArtPrecio {
+    width: 200px;
+}
+
+.productPrice {
+    text-transform: uppercase;
+    font-size: 75%;
+    color: rgb(45, 37, 148);
+    font-weight: bold;
+    display: block;
+    margin-top: 8px;
+    padding-bottom: 0% !important;
+}
+
+.productShoppingCart_PrecioDefault {
+    font-weight: bold;
+}
+
+.productShoppingCart_PrecioMP {
+    font-weight: bold;
+}
+
+.productPriceCredit {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.productShoppingCart_DivUnidades {
+    width: 100px;
+}
+
+.cantidades {
+    text-transform: uppercase;
+    font-size: 75%;
+    color: rgb(45, 37, 148);
+    font-weight: bold;
+    display: block;
+    margin-top: 8px;
+    padding-bottom: 0% !important;
+}
+
+.product-shopping-select {
+    max-width: 95%;
+    font-weight: 600;
+    font-size: 0.7rem;
+}
+
+.productShoppingCart_DeleteProductIcon {
+    width: 40px;
+}
+
+.carrito_NewCheckOutFooter {
+    height: 235px;
+    display: flex;
+    border-radius: 15px;
+    background: rgb(10, 7, 45);
+    margin: 1rem 0rem 0rem;
+    padding: 1rem 0rem 1.5rem;
+    margin-bottom: 30px;
+    margin-left: 60px;
+}
+
+.carrito_ContentShippingCalculator {
+    width: 300px;
+    padding: 0px 15px;
+    color: white;
+    border-right: 1px solid grey;
+}
+
+.carrito_envioForm {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.calcular, .envioPrice {
+    margin-bottom: 16px;
+}
+
+.inputPostal {
+    margin-top: 8px;
+    border: none;
+    box-shadow: none;
+    width: 100%;
+    height: 30px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.carrito_PrecioEnvio {
+  color: #d837b4;
+  margin-top: 5px;
+}
+
+.carrito_ContentPrices {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.carrito_newCheckoutSubTotal, .carrito_newCheckoutSubTotalCredito {
+    margin: 0.5rem 1rem;
+    display: flex;
+    color: white;
+}
+
+.carrito_newCheckoutSubtotalLeft {
+    width: 100%;
+    height: 30px;
+    padding-left: 3rem;
+    text-decoration: unset;
+    text-align: unset;
+}
+
+.carrito_newCheckoutSubtotalRight {
+    width: 50%;
+    height: 30px;
+    text-align: right;
+    padding-right: 3rem;
+    font-size: 1rem;
+}
+
+.subtotalPrice {
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.carrito_newCheckoutSubtotalCredito {
+    margin-top: 1px;
+    width: 100%;
+    height: 30px;
+    padding-left: 3rem;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.creditsOptions {
+    cursor:pointer;
+}
+.carrito_newCheckoutSubtotalLeft{
+    margin-bottom: 40px;
+}
+
+
+@media only screen and (min-width:370px) and (max-width:600px){
+
+    .carrito_NewCheckOutFooter{
+        width: 90%;
+        margin-left: 10px;
+    }
+    
+    
+}

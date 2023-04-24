@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.title {
+    color: rgb(25, 25, 25);
+    font-size: 60px;
+    margin-top: 60px;
+    text-align: left;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.input {
+    width: 350px;
+    height: 40px;    
+    font-size: 18px;
+    margin: 3px 0px;
+    padding: 15px;
+    border-radius: 100px;
+    border: none;
+}
+
+.input:focus {
+    border: none;
+    outline: 3px solid var(--pink-color);
+}
+
+.button {
+    background-color: var(--pink-color);
+    color: white;
+    width: 270px;
+    margin: 0px;
+}
+
+.or {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    font-size: 16px;
+    color: rgb(255, 255, 255);    
+    margin: 5px;
+}
+
+@media (min-width: 1050px) {
+       
+}

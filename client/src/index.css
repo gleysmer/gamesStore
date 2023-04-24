@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+/* ======== VARIABLES ======== */
+:root {
+  --pink-color: #D837B4;
+  --pink-color-strong: #f523c7;
+  --black-color: rgb(15,15,15);
+}
+
+button {
+  border: none;
+  padding: 10px 25px;
+  border-radius: 20px;
+  background-color: var(--pink-color);
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  margin: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: var(--pink-color-strong);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.589);
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+select {
+  font-size: 20px;
+  margin: 0px 8px;
+  border-radius: 5px;
+  padding: 2px 6px;
+  border: none;
+  outline: none;
+}
+
+body {
+  color: var(--black-color);
+  scroll-behavior: smooth;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-image: url('./media/background.jpg');}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

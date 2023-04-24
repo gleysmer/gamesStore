@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.button_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    padding: 3px;
+    background-color: white;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.527);
+    color: rgb(75, 74, 74);
+    transition: 0.2s;
+}
+
+.button_container:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.61);
+    transform: scale(1.1);
+    background-color: white;
+}

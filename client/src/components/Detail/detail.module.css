@@ -1,0 +1,119 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    text-align: left;
+    background-color: white;
+    width: 96%;
+}
+
+.image {
+    height: 55vh;
+    width: 100%;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #490546;
+}
+
+.title_desktop {
+    display: none;
+}
+
+.title {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.year {
+    font-size: 20px;
+    margin: 0;
+}
+
+.description {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.stars {
+    background-image: url('../../media/stars.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 180px;
+    height: 45px;
+    margin: 10px 0px;
+}
+
+.price {
+    font-weight: 600;
+    font-size: 39px;
+}
+
+.platform_button {
+    background-color: var(--pink-color);
+    margin: 0px 5px;
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.extraInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 45px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.text {
+    margin-left: 8px;
+}
+
+.button {
+    background-color: var(--pink-color);
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 40px 0px;
+}
+
+.estrellas {
+    margin-left: 50%;
+}
+
+@media (min-width: 1050px) {
+    .container {
+        margin-top: 30px;
+        width: 92%;
+        margin-left: 6%;
+        padding: 25px;
+        background-color: aliceblue;
+    }
+
+    .year {
+        margin-top: 20px;
+        font-size: 26px;
+    }
+
+    .description {
+        font-weight: 500;
+        font-size: 23px;
+    }
+
+    .title {
+        font-size: 60px;
+        margin: 0;
+    }
+
+    .item {
+        font-size: larger;
+    }
+}

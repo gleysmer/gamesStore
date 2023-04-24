@@ -1,0 +1,115 @@
+.productShoppingCart_ProductRow {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-bottom: 1px solid #d4d4d4;
+    height: 150px;
+    padding: 10px 0px;
+}
+
+.product_container {
+    display: flex;
+    box-shadow: 3px 3px 1px rgb(80, 79, 79);
+    border-radius: 10px;
+    padding: 20px 4px;
+    margin-bottom: 10px;
+    background-color: rgb(241, 237, 232);
+}
+
+.productShoppingCart_Divtitle {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.productShoppingCart_Img {
+    width: 100px;
+    height: 120px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: #d4d4d4;
+    box-shadow: 3px 3px 1px rgb(102, 99, 99);
+ 
+}
+
+.productShoppingCart_ProductName {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 300px;
+    cursor: pointer;
+}
+
+.productName {
+    margin: 2px;
+
+}
+
+.productShoppingCart_DivPrecios {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.productShoppingCart_ArtPrecio {
+    width: 200px;
+}
+
+.productPrice {
+    text-transform: uppercase;
+    font-size: 75%;
+    color: rgb(45, 37, 148);
+    font-weight: bold;
+    display: block;
+    margin-top: 8px;
+    padding-bottom: 0% !important;
+}
+
+.productShoppingCart_PrecioDefault {
+    font-weight: bold;
+}
+
+.productShoppingCart_PrecioMP {
+    font-weight: bold;
+}
+
+.productPriceCredit {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.productShoppingCart_DivUnidades {
+    width: 100px;
+}
+
+.cantidades {
+    text-transform: uppercase;
+    font-size: 75%;
+    color: rgb(45, 37, 148);
+    font-weight: bold;
+    display: block;
+    margin-top: 8px;
+    padding-bottom: 0% !important;
+}
+
+.product-shopping-select {
+    max-width: 95%;
+    font-weight: 600;
+    font-size: 0.7rem;
+}
+
+.bottomeliminar {
+ cursor: pointer;
+width: 40px;
+
+}
+
+
+
+/*Cálculo de envío y subtotales AKA footer de compra*/

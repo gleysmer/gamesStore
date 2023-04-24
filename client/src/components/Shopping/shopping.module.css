@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    width: 96%;
+    min-height: 100vh;
+}
+
+.options {
+    color: white;
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.555);
+    justify-content: space-around;
+    background-color: rgb(56, 15, 95);
+    border: 1px solid black;
+}
+.text{
+    color: aliceblue;
+    font-size: 30px;
+}
+.textname{
+    color: rgb(224, 240, 0);
+}
+
+@media (min-width: 1050px) {
+    .container {
+        margin-top: 30px;
+        width: 92%;
+        margin-left: 6%;
+        padding: 25px;        
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:600px){
+
+    
+   .options{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

@@ -1,0 +1,44 @@
+.update-profile .form-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    min-height: 100vh;
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.555);
+    background-color: #ffffff28;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1) ;
+}
+
+.input-box .box {
+    width: 110%;
+    height: 40px;    
+    font-size: 18px;
+    margin: 6px 0px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.btn-profile{
+    background-color: var(--pink-color);
+    color: white;
+    font-size: 23px;
+    width: 320px;
+    margin-top: 40px;
+    border-radius: 3px;
+    border-color: transparent;
+}
+
+@media (min-width:1050px){
+    .update-profile {
+        margin-top: 30px;
+        width: 92%;
+        margin-left: 6%;
+        padding: 25px;
+    }
+}

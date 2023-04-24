@@ -1,0 +1,46 @@
+.container {
+    display: none;
+    color: white;
+    background-color: rgb(105, 25, 81);
+    padding: 10px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+h1{
+    text-shadow: 3px 2px #558ABB;
+    font-size: 40px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lh4{
+    font-size: 25px;
+}
+
+.letrasp {
+font-size: 18px;
+margin-left: 15px;
+}
+.text {
+    font-size: 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media(min-width: 1050px) {
+    .container {
+        padding: 20px;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

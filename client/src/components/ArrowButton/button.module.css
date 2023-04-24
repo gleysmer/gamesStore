@@ -1,0 +1,33 @@
+.button {
+    position: fixed;
+    left: 10px;
+    top: 50px;
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    background-image: url('../../media/arrow-button.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline: none;
+    border: 1px solid whitesmoke;
+    background-color: none;
+    box-shadow: 0px 0px 9px black;
+    transition: 0.2s;
+    z-index: 2;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-image: url('../../media/arrow-button-hover.png');
+    box-shadow: 0px 0px 6px black;
+}
+
+@media (min-width: 1050px) {
+    .button {
+        left: 130px;
+        top: 15px;
+        width: 60px;
+        height: 60px;
+    }
+}

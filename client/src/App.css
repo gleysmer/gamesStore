@@ -1,0 +1,12 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+@media (min-width: 1050px) {
+  .App {
+    display: block;
+  }
+}

@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+   align-items: center;
+    font-size: 23px;
+    font-weight: 500;
+}
+.container h5{
+    cursor: pointer;
+}
+.title {
+    margin: 5px;
+}
+
+@media only screen and (min-width:320px) and (max-width:600px){
+
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+   .selcts{
+    margin-bottom: 10px;
+   }
+
+
+}

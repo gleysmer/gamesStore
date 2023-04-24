@@ -1,0 +1,26 @@
+.container {
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.623);
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.burguer {
+    border-radius: 6px;
+    padding: 5px;
+    background-color: rgba(100, 98, 98, 0.123);  
+}
+
+.burguer:hover {
+    cursor: pointer;
+    background-color: rgba(100, 98, 98, 0.404);  
+}
